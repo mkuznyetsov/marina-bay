@@ -2,23 +2,600 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb15f21-1d84-4d61-a1e6-5b54c5225025" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\main\FuckingDisplay.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\main\GameMap.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\main\MainFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\main\MainFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\objects\Bullet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\objects\Marine.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\src\main\java\com\ztaticvienn\marina\main\FuckingDisplay.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\javadoc.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\BufferUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\LWJGLUtil.Platform.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\LWJGLUtil.TokenFilter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\LWJGLUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\Pointer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\PointerBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\Sys.BuildType.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\Sys.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\Callbacks.DropConsumerBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\Callbacks.DropConsumerString.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\Callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFW.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcharfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcharfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcharmodsfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcharmodsfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcursorenterfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcursorenterfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcursorposfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWcursorposfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWdropfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWdropfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWerrorfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWerrorfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWframebuffersizefun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWframebuffersizefun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWgammaramp.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWimage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWkeyfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWkeyfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWmonitorfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWmonitorfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWmousebuttonfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWmousebuttonfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWscrollfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWscrollfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWvidmode.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowclosefun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowclosefun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowfocusfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowfocusfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowiconifyfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowiconifyfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowposfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowposfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowrefreshfun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowrefreshfun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowsizefun.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\GLFWwindowsizefun.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\glfw\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\AL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\AL10.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\AL11.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALC10.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALC11.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALCCapabilities.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALCapabilities.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\ALDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EFXUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTAlaw.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTDedicated.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTDisconnect.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTDouble.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTEfx.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTExponentDistance.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTFloat32.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTIma4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTLinearDistance.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTMCFormats.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTMulaw.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTMulawMCFormats.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTOffset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTSourceDistanceModel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EXTThreadLocalContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\EnumerateAllExt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\LOKIQuadriphonic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\OpenALException.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTBlockAlignment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTBufferSamples.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTBufferSubData.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTDeferredUpdates.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTDirectChannels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTLoopPoints.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTLoopback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTMSADPCM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTPauseDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTSourceLatency.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\SOFTSourceLength.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\Util.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\openal\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDBusAddressableMemory.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDDeviceAttributeQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDDeviceBoardName.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDDevicePersistentMemory.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDDeviceProfilingTimerOffset.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDDeviceTopology.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\AMDOfflineDevices.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\APPLEGLSharing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL10.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL10GL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL11.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL12.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL12GL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CL20.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLCapabilities.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLCreateContextCallback.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLCreateContextCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLEventCallback.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLEventCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLMemObjectDestructorCallback.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLMemObjectDestructorCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLNativeKernel.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLNativeKernel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLPlatform.Filter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLPlatform.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLProgramCallback.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLProgramCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLSVMFreeCallback.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLSVMFreeCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\CLUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\INTELDevicePartitionByNames.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\INTELThreadLocalExec.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\Info.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRDepthImages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRFP16.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRFP64.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRGLDepthImages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRGLEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRGLMSAASharing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRGLSharing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRICD.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRImage2DFromBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRInitializeMemory.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\KHRTerminateContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\NVDeviceAttributeQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\OpenCLException.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\cl_buffer_region.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\cl_bus_address_amd.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\cl_device_topology_amd.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\cl_image_desc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\cl_image_format.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opencl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\AMDDebugOutput.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\AMDOcclusionQueryEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBBaseInstance.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBBindlessTexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBBlendFuncExtended.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBBufferStorage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBCLEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBClearBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBClearTexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBClipControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBColorBufferFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBCompressedTexturePixelStorage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBComputeShader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBComputeVariableGroupSize.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBConditionalRenderInverted.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBCopyBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBCopyImage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBCullDistance.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDebugOutput.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDepthBufferFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDepthClamp.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDepthTexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDirectStateAccess.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDrawBuffers.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDrawBuffersBlend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDrawElementsBaseVertex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDrawIndirect.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBDrawInstanced.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBES2Compatibility.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBES31Compatibility.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBES3Compatibility.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBEnhancedLayouts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBExplicitUniformLocation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBFragmentProgram.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBFragmentShader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBFramebufferNoAttachments.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBFramebufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBFramebufferSRGB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBGPUShader5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBGPUShaderFP64.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBGeometryShader4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBGetProgramBinary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBGetTextureSubImage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBHalfFloatPixel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBHalfFloatVertex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBImaging.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBIndirectParameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBInstancedArrays.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBInternalformatQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBInternalformatQuery2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBInvalidateSubdata.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMapBufferAlignment.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMapBufferRange.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMatrixPalette.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMultiBind.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMultiDrawIndirect.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMultisample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBMultitexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBOcclusionQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBOcclusionQuery2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBPipelineStatisticsQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBPixelBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBPointParameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBPointSprite.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBProgramInterfaceQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBProvokingVertex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBQueryBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBRobustness.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSampleShading.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSamplerObjects.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSeamlessCubeMap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSeamlessCubemapPerTexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSeparateShaderObjects.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShaderAtomicCounters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShaderImageLoadStore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShaderObjects.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShaderStorageBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShaderSubroutine.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShadingLanguage100.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShadingLanguageInclude.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShadow.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBShadowAmbient.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSparseBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSparseTexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBStencilTexturing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBSync.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTessellationShader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureBarrier.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureBorderClamp.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureBufferRange.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureCompression.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureCompressionBPTC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureCompressionRGTC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureCubeMap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureCubeMapArray.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureEnvCombine.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureEnvDot3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureGather.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureMirrorClampToEdge.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureMirroredRepeat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureMultisample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureRG.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureRGB10_A2UI.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureRectangle.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureStorage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureStorageMultisample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureSwizzle.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTextureView.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTimerQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTransformFeedback2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTransformFeedback3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTransformFeedbackInstanced.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTransformFeedbackOverflowQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBTransposeMatrix.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBUniformBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexArrayBGRA.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexArrayObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexAttrib64Bit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexAttribBinding.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexBlend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexProgram.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexShader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBVertexType2_10_10_10_REV.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBViewportArray.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ARBWindowPos.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\ContextCapabilities.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\DEBUGPROC.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\DEBUGPROC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\DEBUGPROCAMD.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\DEBUGPROCAMD.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\DEBUGPROCARB.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\DEBUGPROCARB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTABGR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBGRA.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBindableUniform.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBlendColor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBlendEquationSeparate.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBlendFuncSeparate.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBlendMinmax.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTBlendSubtract.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTDepthBoundsTest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTDirectStateAccess.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTFramebufferBlit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTFramebufferMultisample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTFramebufferMultisampleBlitScaled.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTFramebufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTFramebufferSRGB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTPointParameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTSharedTexturePalette.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTStencilWrap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTTextureCompressionS3TC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTTextureFilterAnisotropic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTTextureInteger.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\EXTTransformFeedback.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL11.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL12.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL13.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL14.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL15.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL20.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL21.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL30.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL31.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL32.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL33.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL40.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL41.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL42.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL43.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL44.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GL45.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLX11.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLX12.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLX13.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLX14.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXAMDGPUAssociation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBContextFlushControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBCreateContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBCreateContextProfile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBCreateContextRobustness.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBFBConfigFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBFramebufferSRGB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBGetProcAddress.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBMultisample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBRobustnessApplicationIsolation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXARBVertexBufferObject.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTBufferAge.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTCreateContextESProfile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTFBConfigPackedFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTImportContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTSwapControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTSwapControlTear.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTTextureFromPixmap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTVisualInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXEXTVisualRating.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXINTELSwapEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXNVCopyImage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXNVDelayBeforeSwap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGIMakeCurrentRead.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGISwapControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGIVideoSync.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGIXFBConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGIXPBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGIXSwapBarrier.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GLXSGIXSwapGroup.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\GPU_DEVICE.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\KHRBlendEquationAdvanced.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\KHRBlendEquationAdvancedCoherent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\KHRContextFlushControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\KHRDebug.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\KHRRobustness.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\KHRTextureCompressionASTCLDR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\NVConditionalRender.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\NVPointSprite.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\NVShaderBufferLoad.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\NVVertexBufferUnifiedMemory.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\OpenGLException.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLAMDGPUAssociation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBBufferRegion.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBContextFlushControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBCreateContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBCreateContextProfile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBCreateContextRobustness.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBExtensionsString.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBFramebufferSRGB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBMakeCurrentRead.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBMultisample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBPbuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBPixelFormat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBPixelFormatFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBRenderTexture.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBRobustnessApplicationIsolation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLARBRobustnessShareGroupIsolation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLEXTCreateContextESProfile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLEXTExtensionsString.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLEXTFramebufferSRGB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLEXTPixelFormatPackedFloat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLEXTSwapControl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLNVCopyImage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLNVDXInterop.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLNVDelayBeforeSwap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\WGLNVGPUAffinity.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\opengl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\APIBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\APIUtil.APIVersion.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\APIUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\Checks.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\DynamicLinkLibrary.Default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\DynamicLinkLibrary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\FunctionProvider.Default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\FunctionProvider.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\FunctionProviderLocal.Default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\FunctionProviderLocal.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\MathUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\MemoryUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\Platform.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\PointerWrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\Retainable.Default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\Retainable.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Byte.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Double.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Float.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Int.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Long.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Ptr.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Short.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.Void.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\Closure.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\ClosureError.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\ClosureRegistry.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\LibFFI.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\ffi_cif.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\ffi_closure.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\ffi_type.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\libffi\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\DynamicLinkLoader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Fcntl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\GLFWLinux.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\GLX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\JSEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Joystick.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\LinuxLibrary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\PropertyWMState.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\SysIOctl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\SysSelect.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Time.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Unistd.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Visual.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\X.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XAnyEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XButtonEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XClassHint.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XClientMessageEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XColor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XComposeStatus.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XConfigureEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XErrorEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XErrorHandler.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XErrorHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XGCValues.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XGenericEventCookie.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XIButtonState.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XIDeviceEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XIEventMask.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XIModifierState.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XIValuatorState.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XInput2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XKBlib.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XKeyEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XMacros.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XMotionEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XPropertyEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XRRCrtcGamma.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XRRCrtcInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XRRModeInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XRROutputInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XRRScreenResources.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XSelectionEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XSelectionRequestEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XSetWindowAttributes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XSizeHints.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XVisualInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XWMHints.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XWindowAttributes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Xatom.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Xf86vmode.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XkbDescRec.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XkbKeyAliasRec.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XkbKeyNameRec.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\XkbNamesRec.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Xlib.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Xrandr.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\Xutil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\keysymdef.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\opengl\LinuxGLContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\opengl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\opengl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\timespec.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\timeval.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\linux\timezone.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\CGL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\CoreFoundation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\DynamicLinkLoader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\EventLoop.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\GLFWMacOSX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\MacOSXLibrary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\MacOSXLibraryBundle.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\MacOSXLibraryDL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\Unistd.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\opengl\MacOSXGLContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\opengl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\opengl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\macosx\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\DEVMODE.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\DISPLAY_DEVICE.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\Dwmapi.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\EnumObjectsProc.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\EnumObjectsProc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\GLFWWin32.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\GLYPHMETRICSFLOAT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\JOYCAPS.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\JOYINFO.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\JOYINFOEX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\Kernel32.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\LARGE_INTEGER.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\LOGBRUSH.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\LOGPEN.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\MSG.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\Mmsystem.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\OSVERSIONINFOEX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\PIXELFORMATDESCRIPTOR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\POINT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\POINTFLOAT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\POINTL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\RECT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\TRACKMOUSEEVENT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\User32.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WGL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WINDOWPOS.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WNDCLASSEX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WinBase.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WinError.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WinGDI.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WinUser.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WindowProc.SAM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WindowProc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WindowsDisplay.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WindowsLibrary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\WindowsPlatform.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\opengl\WindowsGLContext.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\opengl\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\opengl\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\org\lwjgl\system\windows\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\package-list" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\resources\background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\resources\tab.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\resources\titlebar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\resources\titlebar_end.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\javadoc\serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\linux\x64\liblwjgl.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\linux\x64\libopenal.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\linux\x86\liblwjgl.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\linux\x86\libopenal.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\macosx\x64\liblwjgl.dylib" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\macosx\x64\libopenal.dylib" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\windows\x64\OpenAL32.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\windows\x64\lwjgl.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\windows\x86\OpenAL32.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib\native\windows\x86\lwjgl.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\out\production\MarinaBay\com\ztaticvienn\marina\main\Game$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MarinaBay/com/ztaticvienn/marina/main/Game.class" afterPath="$PROJECT_DIR$/out/production/MarinaBay/com/ztaticvienn/marina/main/Game.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MarinaBay/com/ztaticvienn/marina/objects/GameObject.class" afterPath="$PROJECT_DIR$/out/production/MarinaBay/com/ztaticvienn/marina/objects/GameObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/javadoc.zip" afterPath="$PROJECT_DIR$/lib/javadoc.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/native/macosx/x64/liblwjgl.dylib" afterPath="$PROJECT_DIR$/lib/native/macosx/x64/liblwjgl.dylib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/native/linux/x64/liblwjgl.so" afterPath="$PROJECT_DIR$/lib/native/linux/x64/liblwjgl.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/native/linux/x86/liblwjgl.so" afterPath="$PROJECT_DIR$/lib/native/linux/x86/liblwjgl.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/native/windows/x64/lwjgl.dll" afterPath="$PROJECT_DIR$/lib/native/windows/x64/lwjgl.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/native/windows/x86/lwjgl.dll" afterPath="$PROJECT_DIR$/lib/native/windows/x86/lwjgl.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MarinaBay/com/ztaticvienn/marina/objects/weapons/MachineGun.class" afterPath="$PROJECT_DIR$/out/production/MarinaBay/com/ztaticvienn/marina/objects/weapons/MachineGun.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/lwjgl.jar" afterPath="$PROJECT_DIR$/lib/lwjgl.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java" afterPath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java" afterPath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/MachineGun.java" afterPath="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/MachineGun.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MarinaBay.iml" afterPath="$PROJECT_DIR$/MarinaBay.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MarinaBay.iws" />
@@ -48,8 +625,22 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.392858" vertical-offset="1414" max-vertical-offset="2567">
-              <caret line="99" column="55" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1486" max-vertical-offset="2397">
+              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3484#3485#0" expanded="true" />
+                <element signature="e#3524#3525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/sounds/SoundManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3371901" vertical-offset="0" max-vertical-offset="646">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,15 +651,9 @@
       <file leaf-file-name="Round50Cal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/ammo/Round50Cal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="714">
               <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,26 +661,20 @@
       <file leaf-file-name="Marine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/vehicles/Marine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1411">
-              <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1309">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachineGun.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MachineGun.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/MachineGun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.55058044" vertical-offset="791" max-vertical-offset="1394">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1394">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,12 +685,10 @@
       <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,11 +699,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="629">
               <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,23 +737,28 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/logic/collision/CollisionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/logic/collision/Collidable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/vehicles/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/hud/PlayerHUD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/ammo/Round50Cal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/M2MachineGun.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/vehicles/Marine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/sounds/WaveData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/MachineGun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/sounds/SoundManager.java" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="width" value="1692" />
-    <option name="height" value="1011" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,6 +785,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,6 +816,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarinaBay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarinaBay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sounds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,14 +1100,6 @@
               <option name="myItemId" value="marina" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collision" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -509,19 +1111,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marina" />
+              <option name="myItemId" value="sound" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,14 +1143,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="native" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="windows" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarinaBay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarinaBay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="native" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,7 +1191,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/lwjgl.zip!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/slick-util.jar!/" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -581,6 +1199,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\res" />
       <recent name="C:\Users\Mike\Downloads\Swing-Multi-thread-master\Swing-Multi-thread-master\MarinaBay\lib" />
     </key>
   </component>
@@ -593,7 +1212,7 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.ztaticvienn.marina.main.Game" />
-      <option name="VM_PARAMETERS" value="-Djava.library.path=lib\native\windows\x64" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=lib\native\windows" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -883,12 +1502,13 @@
       <workItem from="1417369844142" duration="11946000" />
       <workItem from="1417384528599" duration="3104000" />
       <workItem from="1417883672714" duration="3104000" />
-      <workItem from="1417888452686" duration="25488000" />
+      <workItem from="1417888452686" duration="25568000" />
+      <workItem from="1417942632782" duration="13410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46675000" />
+    <option name="totallyTimeSpent" value="60165000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -911,32 +1531,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1692" height="1011" extended-state="0" />
-    <editor active="true" />
+    <frame x="-5" y="0" width="1692" height="1010" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33489463" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26112413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25791326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -990,7 +1610,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1001,10 +1621,70 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2618">
+          <caret line="99" column="55" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3484#3485#0" expanded="true" />
+            <element signature="e#3524#3525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/ammo/Round50Cal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="714">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/vehicles/Marine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1411">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/MachineGun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="646">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/hud/PlayerHUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="629">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="1105">
           <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3484#3485#0" expanded="true" />
+            <element signature="e#3524#3525#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1013,7 +1693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,14 +1724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="10661" max-vertical-offset="33609">
-          <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/awt/GridLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.096958175" vertical-offset="1122" max-vertical-offset="7650">
@@ -1064,7 +1735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31559405" vertical-offset="0" max-vertical-offset="808">
           <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="13.926923" vertical-offset="0" max-vertical-offset="21658">
           <caret line="686" column="50" selection-start-line="686" selection-start-column="42" selection-end-line="686" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55128205" vertical-offset="981" max-vertical-offset="15062">
           <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +1779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="3446" max-vertical-offset="163965">
           <caret line="301" column="15" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="228" max-vertical-offset="81294">
           <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,7 +1793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="1775" max-vertical-offset="91494">
           <caret line="182" column="45" selection-start-line="182" selection-start-column="45" selection-end-line="182" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,15 +1800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44183168" vertical-offset="204" max-vertical-offset="3485">
           <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/system/windows/RECT.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.780332" vertical-offset="713" max-vertical-offset="1496">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.348135" vertical-offset="83512" max-vertical-offset="133365">
           <caret line="4960" column="23" selection-start-line="4960" selection-start-column="23" selection-end-line="4960" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,19 +1830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.179402" vertical-offset="378" max-vertical-offset="11594">
           <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,33 +1837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1973466" vertical-offset="0" max-vertical-offset="603">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/vehicles/Marine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1411">
-          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.392858" vertical-offset="1414" max-vertical-offset="2567">
-          <caret line="99" column="55" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,11 +1844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="629">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,20 +1852,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/opengl/GLContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1764706" vertical-offset="0" max-vertical-offset="5185">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/BufferUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="58.32" vertical-offset="1560" max-vertical-offset="2125">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/LWJGLUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.60354" vertical-offset="2703" max-vertical-offset="3315">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/Sys.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1764706" vertical-offset="204" max-vertical-offset="782">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/openal/AL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.264706" vertical-offset="1411" max-vertical-offset="1989">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9628866" vertical-offset="23112" max-vertical-offset="33609">
+          <caret line="1466" column="23" selection-start-line="1466" selection-start-column="23" selection-end-line="1466" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/openal/AL10.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3474427" vertical-offset="14389" max-vertical-offset="22219">
+          <caret line="875" column="22" selection-start-line="875" selection-start-column="22" selection-end-line="875" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl.jar!/org/lwjgl/openal/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49827588" vertical-offset="0" max-vertical-offset="580">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/vehicles/Marine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="1309">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lwjgl_util.jar!/org/lwjgl/util/WaveData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.35172415" vertical-offset="306" max-vertical-offset="2584">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="2397">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3484#3485#0" expanded="true" />
+            <element signature="e#3524#3525#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/objects/weapons/MachineGun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.55058044" vertical-offset="791" max-vertical-offset="1394">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1394">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ztaticvienn/marina/sounds/SoundManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3371901" vertical-offset="0" max-vertical-offset="646">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1326,7 +2044,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lwjgl</last-edited>
+          <last-edited>slick-util</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

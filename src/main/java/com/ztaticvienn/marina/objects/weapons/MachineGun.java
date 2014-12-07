@@ -6,6 +6,7 @@ import com.ztaticvienn.marina.objects.ammo.Round50Cal;
 import com.ztaticvienn.marina.objects.vehicles.Marine;
 
 import static org.lwjgl.opengl.GL11.*;
+import static com.ztaticvienn.marina.sounds.SoundManager.*;
 
 /**
  * Created by Mike on 06.12.2014.
@@ -35,6 +36,7 @@ public class MachineGun extends GameObject {
             }
             ammo--;
             lastFire = System.nanoTime();
+            playSound(Sounds.MACHINEGUN_FIRE);
             Game.addObject(new Round50Cal(x + 2, y + 2));
             System.out.printf("Ammo: %d | %d\n", ammo, cartridges);
         }
@@ -47,8 +49,6 @@ public class MachineGun extends GameObject {
     public int getCartridges() {
         return cartridges;
     }
-
-
 
     public void reload() {
         if (cartridges > 0) {
